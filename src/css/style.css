@@ -1,0 +1,221 @@
+:root {
+    --blue-color: hsl(246, 80%, 60%);
+    --card-work: hsl(15, 100%, 70%);
+    --card-play: hsl(195, 74%, 62%);
+    --card-study: hsl(348, 100%, 68%);
+    --card-exercise: hsl(145, 58%, 55%);
+    --card-social: hsl(264, 64%, 52%);
+    --card-self-care: hsl(43, 84%, 65%);
+ /*********************************************/
+    --color-background-main: hsl(226, 43%, 10%);
+    --color-background-card: hsl(235, 46%, 20%);
+    --color-descricao: hsl(236, 100%, 87%);
+    --color-descricao-2: hsl(235, 45%, 61%);
+    --image-bg-color: hsl(0, 0%, 90%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+main{
+    background-color: var(--color-background-main);
+    font-family: "Rubik", sans-serif;
+    color: white;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card{
+
+   height: 300px;
+   width: 150px; 
+   display: flex;
+   flex-direction: column;
+   background-color: var(--color-background-card);
+   border-radius: 20px;
+}
+
+.container-dados-usuario{
+    background-color: var(--blue-color);
+    height: 200px;
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+
+.container-text-user{
+    margin-top: 20px;
+} 
+
+.container-text-user p{
+    color: var(--color-descricao);
+}
+
+.container-image img{
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.container-periodo{
+    padding-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-periodo p{
+    font-size: 13px;
+    color: var(--color-descricao);
+    transition: 0.6s ease;
+}
+
+.container-periodo p:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn.active{
+    color: #fff;
+}
+
+.container-informacoes{
+    margin-top: 30px;
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+}
+
+.container-tasks{
+    background-color: var(--color-background-card);
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.container-tasks:hover{
+    background-color: var(--color-descricao-2);
+    cursor: pointer;
+    transform: translateY(5px);
+    
+}
+
+.icone-elip{
+    border: 1px solid red;
+    text-align: right;
+}
+
+.icon-ellipsis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-test img{
+    width: 50%;
+    height: 50%;
+}
+
+.task{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.focus-hours{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.last-week {
+    color: var(--color-descricao);
+    font-weight: 500;
+}
+
+.image-work{
+    background-color: var(--card-work);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+    height: 65px;
+}
+
+.image-work img{
+    height: 50px;
+}
+
+.image-play{
+    background-color: var(--card-play);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+    height: 65px;
+}
+
+.image-play img{
+    height: 50px;
+}
+
+.image-study{
+    background-color: var(--card-study);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+    height: 65px;
+}
+
+.image-study img{
+    height: 50px;
+}
+
+.image-exercise{
+    background-color: var(--card-exercise);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+    height: 65px;
+}
+
+.image-exercise img{
+    height: 50px;
+}
+
+.image-social{
+    background-color: var(--card-social);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+    height: 65px;
+}
+
+.image-social img{
+    height: 50px;
+}
+
+.image-self-care{
+    background-color: var(--card-self-care);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: right;
+    height: 65px;
+}
+
+.image-self-care img{
+    height: 50px;
+}

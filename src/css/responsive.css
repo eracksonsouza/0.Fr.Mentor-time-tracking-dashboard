@@ -1,0 +1,85 @@
+@media(max-width: 580px ){
+    .container-card, 
+    .item{
+        margin-top: 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .container-dados-usuario{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .container-card,
+    .item{
+        margin-bottom: 20px;
+    }
+
+    .container-text-user h2{
+        font-size: 1.5rem;
+    }
+
+    .task, 
+    .focus-hours,
+    .last-week{
+        font-size: 0.9rem;
+    }
+
+    .container-periodo{
+        justify-content: space-evenly;
+    }
+
+    .container-informacoes{
+        flex-wrap: wrap;
+    }
+
+    .icon-ellipsis {
+        margin-top: 10px;
+    }
+    .container-principal{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-card{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-dados-usuario{
+        display: flex;
+        gap: 20px;
+        width: 300px;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-periodo{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .container-informacoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item{
+        width: 300px;
+        height: 150px;
+    }
+
+    .icon-ellipsis{
+        display: flex;
+        justify-content: space-between;
+    } 
+}
+
